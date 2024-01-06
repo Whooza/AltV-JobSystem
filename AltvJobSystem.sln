@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltvJobSystem.Server", "AltvJobSystem.Server\AltvJobSystem.Server.csproj", "{EA7D203F-1C34-4349-9206-13A6A166D450}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltvJobSystem.Client", "AltvJobSystem.Client\AltvJobSystem.Client.csproj", "{A60CE7AB-84CC-4C54-B1CE-9391C01EA386}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltvJobSystem.Shared", "AltvJobSystem.Shared\AltvJobSystem.Shared.csproj", "{1F0C0CCC-F309-4C3E-8D35-BB5557F6097F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Altv.Client", "Altv.Client\Altv.Client.csproj", "{F61AD107-D142-4D81-A385-FD2D7A20DF03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Altv.Server", "Altv.Server\Altv.Server.csproj", "{6A4384FB-4B48-404B-8E70-45A34B731C3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{97D738C3-96B4-42EE-9E32-DBEEEBDD3AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altv.Shared", "Altv.Shared\Altv.Shared.csproj", "{1DB8C79D-6570-490D-B88C-93FC4E744F9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA7D203F-1C34-4349-9206-13A6A166D450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7D203F-1C34-4349-9206-13A6A166D450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7D203F-1C34-4349-9206-13A6A166D450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7D203F-1C34-4349-9206-13A6A166D450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60CE7AB-84CC-4C54-B1CE-9391C01EA386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60CE7AB-84CC-4C54-B1CE-9391C01EA386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60CE7AB-84CC-4C54-B1CE-9391C01EA386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60CE7AB-84CC-4C54-B1CE-9391C01EA386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0C0CCC-F309-4C3E-8D35-BB5557F6097F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0C0CCC-F309-4C3E-8D35-BB5557F6097F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0C0CCC-F309-4C3E-8D35-BB5557F6097F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0C0CCC-F309-4C3E-8D35-BB5557F6097F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61AD107-D142-4D81-A385-FD2D7A20DF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61AD107-D142-4D81-A385-FD2D7A20DF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61AD107-D142-4D81-A385-FD2D7A20DF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61AD107-D142-4D81-A385-FD2D7A20DF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4384FB-4B48-404B-8E70-45A34B731C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4384FB-4B48-404B-8E70-45A34B731C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4384FB-4B48-404B-8E70-45A34B731C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4384FB-4B48-404B-8E70-45A34B731C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB8C79D-6570-490D-B88C-93FC4E744F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB8C79D-6570-490D-B88C-93FC4E744F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB8C79D-6570-490D-B88C-93FC4E744F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB8C79D-6570-490D-B88C-93FC4E744F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F61AD107-D142-4D81-A385-FD2D7A20DF03} = {97D738C3-96B4-42EE-9E32-DBEEEBDD3AFF}
+		{6A4384FB-4B48-404B-8E70-45A34B731C3C} = {97D738C3-96B4-42EE-9E32-DBEEEBDD3AFF}
+		{1DB8C79D-6570-490D-B88C-93FC4E744F9E} = {97D738C3-96B4-42EE-9E32-DBEEEBDD3AFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BD527F3-DD98-424F-84FE-919006D9C9C4}
+	EndGlobalSection
+EndGlobal
